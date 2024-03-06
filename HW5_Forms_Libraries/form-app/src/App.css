@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+}
+#root{
+  height: 100%;
+  width: 100%;
+}
+form{
+  width: 30%;
+  height: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: beige;
+  display: inline-block;
+}
+
+form div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5px 10px;
+}
+input{
+  width: 70%;
+  padding: 5px;
+}
+input:focus{
+  outline: none;
+}
+button{
+  padding: 5px 15px;
+  background-color: bisque;
+  border: 2px solid rgb(206, 174, 126);
+  color: rgb(184, 116, 116);
+}
+#btn{
+  display: flex;
+  align-items: center;
+  
+}
