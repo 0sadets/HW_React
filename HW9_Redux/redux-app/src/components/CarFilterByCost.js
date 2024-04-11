@@ -4,7 +4,7 @@ import { Button } from "antd";
 
 export default function CarFilterByCost() {
   const { state, deleteCar } = useContext(CarContext);
-  const cars = state.cars; // Отримати список автомобілів безпосередньо зі стану
+  const cars = state.cars; 
 
   const [min, setMin] = useState("");
   const [max, setMax] = useState("");

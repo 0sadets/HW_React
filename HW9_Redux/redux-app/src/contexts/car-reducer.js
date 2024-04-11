@@ -122,10 +122,10 @@ export const carReducer = (state, action) => {
         ...state,
         cars: state.cars.filter((car) => car.id !== payload),
       };
-    case CAR_ACTION_TYPES.ADD_CAR: // доданий новий кейс
+    case CAR_ACTION_TYPES.ADD_CAR: 
       return {
         ...state,
-        cars: [...state.cars, payload], // додаємо новий автомобіль до кінця масиву cars
+        cars: [...state.cars, payload],
       };
    
     default:
