@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.carCard{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.carCard img{
+  width: 200px;
+}
+.page-title{
+  text-align: center;
+  font-size: 23px;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.modal{
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+.car-info-container{
+  display: flex;
+  flex-direction: row;
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+.car-info-container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.car-info-container img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin-right: 20px;
+}
+p{
+  margin: 0;
+}
+.sb-title{
+  color: aliceblue;
+  text-align: center;
+}
+.add-form{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 15px;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-around;
+}
+.add-form label{
+font-size: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+}
+.add-form input{
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid black;
+
+}
+.add-form textarea{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.add-form button{
+  padding: 5px 15px;
+  background-color: rgb(7, 7, 75);
+  color: aliceblue;
+  border: 1px solid rgb(7, 7, 75);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.form-container {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.add-container h2{
+  text-align: center;
+}
+
+
+.find-form input{
+  margin: 0 20px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
